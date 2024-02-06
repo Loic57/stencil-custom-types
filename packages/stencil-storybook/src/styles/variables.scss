@@ -1,0 +1,20 @@
+$xxs: 375px;
+$xs: 576px;
+$sm: 768px;
+$md: 992px;
+$lg: 1151px;
+$xl: 1400px;
+
+:root {
+  --font-1: 'Inter', sans-serif;
+
+  --elevation-1: 0 1px 4px 0 rgba(0,0,0,10%);
+  --elevation-2: 0 2px 4px 0 rgba(0,0,0,10%);
+  --elevation-3: 0 8px 16px 0 rgba(0,0,0,10%);
+  --elevation-4: 0 8px 24px 0 rgb(0 0 0, 10%);
+  --elevation-5: 0 16px 24px 0 rgba(0,0,0,10%);
+
+  --outline: 0.2rem solid var(--color-neutral-black);
+
+  --gutter: 1.6rem;
+}

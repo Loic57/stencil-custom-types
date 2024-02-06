@@ -1,0 +1,18 @@
+{
+  "name": "ap-library-components",
+  "version": "0.0.1",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "typescript": "5.2.2"
+  },
+  "scripts": {
+    "web-components:build": "npx lerna run --scope=ap-web-components stencil:build",
+    "angular-components:build": "npx lerna run --scope=ap-angular-components build-lib",
+    "react-components:build": "npx lerna run --scope=ap-react-components build-lib",
+    "all-components:build": "npm run web-components:build && npm run angular-components:build && npm run react-components:build"
+  },
+  "license": "MIT"
+}

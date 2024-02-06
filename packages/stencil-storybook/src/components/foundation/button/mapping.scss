@@ -1,0 +1,257 @@
+$button-colors: (
+  primary-500: (
+    enable: (
+      color: var(--button-color-primary-500-filled-enable-color),
+      background-color: var(--button-color-primary-500-filled-enable-background-color),
+      border-color: var(--button-color-primary-500-filled-enable-border-color),
+      box-shadow: var(--elevation-0)
+    ),
+    hover: (
+      color: var(--button-color-primary-500-filled-hover-color),
+      background-color: var(--button-color-primary-500-filled-hover-background-color),
+      border-color: var(--button-color-primary-500-filled-hover-border-color),
+      box-shadow: var(--elevation-3)
+    ),
+    active: (
+      color: var(--button-color-primary-500-filled-active-color),
+      background-color: var(--button-color-primary-500-filled-active-background-color),
+      border-color: var(--button-color-primary-500-filled-active-border-color),
+      box-shadow: var(--elevation-5)
+    ),
+    focus: (
+      color: var(--button-color-primary-500-filled-focus-color),
+      background-color: var(--button-color-primary-500-filled-focus-background-color),
+      border-color: var(--button-color-primary-500-filled-focus-border-color),
+      box-shadow: var(--elevation-3)
+    ),
+    disabled: (
+      color: var(--button-color-primary-500-filled-disabled-color),
+      background-color: var(--button-color-primary-500-filled-disabled-background-color),
+      border-color: var(--button-color-primary-500-filled-disabled-border-color),
+      box-shadow: var(--elevation-0)
+    ),
+    outlined: (
+      enable: (
+        color: var(--button-color-primary-500-outlined-enable-color),
+        background-color: var(--button-color-primary-500-outlined-enable-background-color),
+        border-color: var(--button-color-primary-500-outlined-enable-border-color),
+        box-shadow: var(--elevation-0)
+      ),
+      hover: (
+        color: var(--button-color-primary-500-outlined-hover-color),
+        background-color: var(--button-color-primary-500-outlined-hover-background-color),
+        border-color: var(--button-color-primary-500-outlined-hover-border-color),
+        box-shadow: var(--elevation-3)
+      ),
+      active: (
+        color: var(--button-color-primary-500-outlined-active-hover-color),
+        background-color: var(--button-color-primary-500-outlined-active-hover-background-color),
+        border-color: var(--button-color-primary-500-outlined-active-hover-border-color),
+        box-shadow: var(--elevation-5)
+      ),
+      focus: (
+        color: var(--button-color-primary-500-outlined-focus-color),
+        background-color: var(--button-color-primary-500-outlined-focus-background-color),
+        border-color: var(--button-color-primary-500-outlined-focus-border-color),
+        box-shadow: var(--elevation-3)
+      ),
+      disabled: (
+        color: var(--button-color-primary-500-outlined-disabled-color),
+        background-color: var(--button-color-primary-500-outlined-disabled-background-color),
+        border-color: var(--button-color-primary-500-outlined-disabled-border-color),
+        box-shadow: var(--elevation-0)
+      ),
+    ),
+    text: (
+      enable: (
+        color: var(--button-color-primary-500-text-enable-color),
+        background-color: var(--button-color-primary-500-text-enable-background-color),
+        border-color: var(--button-color-primary-500-text-enable-border-color),
+        box-shadow: var(--elevation-0)
+      ),
+      hover: (
+        color: var(--button-color-primary-500-text-hover-color),
+        background-color: var(--button-color-primary-500-text-hover-background-color),
+        border-color: var(--button-color-primary-500-text-hover-border-color),
+        box-shadow: var(--elevation-3)
+      ),
+      active: (
+        color: var(--button-color-primary-500-text-active-hover-color),
+        background-color: var(--button-color-primary-500-text-active-hover-background-color),
+        border-color: var(--button-color-primary-500-text-active-hover-border-color),
+        box-shadow: var(--elevation-5)
+      ),
+      focus: (
+        color: var(--button-color-primary-500-text-focus-color),
+        background-color: var(--button-color-primary-500-text-focus-background-color),
+        border-color: var(--button-color-primary-500-text-focus-border-color),
+        box-shadow: var(--elevation-3)
+      ),
+      disabled: (
+        color: var(--button-color-primary-500-text-disabled-color),
+        background-color: var(--button-color-primary-500-text-disabled-background-color),
+        border-color: var(--button-color-primary-500-text-disabled-border-color),
+        box-shadow: var(--elevation-0)
+      ),
+    )
+  ),
+  secondary-500: (
+    enable: (
+      color: var(--button-color-secondary-500-filled-enable-color),
+      background-color: var(--button-color-secondary-500-filled-enable-background-color),
+      border-color: var(--button-color-secondary-500-filled-enable-border-color),
+      box-shadow: var(--elevation-0)
+    ),
+    hover: (
+      color: var(--button-color-secondary-500-filled-hover-color),
+      background-color: var(--button-color-secondary-500-filled-hover-background-color),
+      border-color: var(--button-color-secondary-500-filled-hover-border-color),
+      box-shadow: var(--elevation-3)
+    ),
+    active: (
+      color: var(--button-color-secondary-500-filled-active-color),
+      background-color: var(--button-color-secondary-500-filled-active-background-color),
+      border-color: var(--button-color-secondary-500-filled-active-border-color),
+      box-shadow: var(--elevation-5)
+    ),
+    focus: (
+      color: var(--button-color-secondary-500-filled-focus-color),
+      background-color: var(--button-color-secondary-500-filled-focus-background-color),
+      border-color: var(--button-color-secondary-500-filled-focus-border-color),
+      box-shadow: var(--elevation-3)
+    ),
+    disabled: (
+      color: var(--button-color-secondary-500-filled-disabled-color),
+      background-color: var(--button-color-secondary-500-filled-disabled-background-color),
+      border-color: var(--button-color-secondary-500-filled-disabled-border-color),
+      box-shadow: var(--elevation-0)
+    ),
+    outlined: (
+      enable: (
+        color: var(--button-color-secondary-500-outlined-enable-color),
+        background-color: var(--button-color-secondary-500-outlined-enable-background-color),
+        border-color: var(--button-color-secondary-500-outlined-enable-border-color),
+        box-shadow: var(--elevation-0)
+      ),
+      hover: (
+        color: var(--button-color-secondary-500-outlined-hover-color),
+        background-color: var(--button-color-secondary-500-outlined-hover-background-color),
+        border-color: var(--button-color-secondary-500-outlined-hover-border-color),
+        box-shadow: var(--elevation-3)
+      ),
+      active: (
+        color: var(--button-color-secondary-500-outlined-active-hover-color),
+        background-color: var(--button-color-secondary-500-outlined-active-hover-background-color),
+        border-color: var(--button-color-secondary-500-outlined-active-hover-border-color),
+        box-shadow: var(--elevation-5)
+      ),
+      focus: (
+        color: var(--button-color-secondary-500-outlined-focus-color),
+        background-color: var(--button-color-secondary-500-outlined-focus-background-color),
+        border-color: var(--button-color-secondary-500-outlined-focus-border-color),
+        box-shadow: var(--elevation-3)
+      ),
+      disabled: (
+        color: var(--button-color-secondary-500-outlined-disabled-color),
+        background-color: var(--button-color-secondary-500-outlined-disabled-background-color),
+        border-color: var(--button-color-secondary-500-outlined-disabled-border-color),
+        box-shadow: var(--elevation-0)
+      ),
+    ),
+    text: (
+      enable: (
+        color: var(--button-color-secondary-500-text-enable-color),
+        background-color: var(--button-color-secondary-500-text-enable-background-color),
+        border-color: var(--button-color-secondary-500-text-enable-border-color),
+        box-shadow: var(--elevation-0)
+      ),
+      hover: (
+        color: var(--button-color-secondary-500-text-hover-color),
+        background-color: var(--button-color-secondary-500-text-hover-background-color),
+        border-color: var(--button-color-secondary-500-text-hover-border-color),
+        box-shadow: var(--elevation-3)
+      ),
+      active: (
+        color: var(--button-color-secondary-500-text-active-hover-color),
+        background-color: var(--button-color-secondary-500-text-active-hover-background-color),
+        border-color: var(--button-color-secondary-500-text-active-hover-border-color),
+        box-shadow: var(--elevation-5)
+      ),
+      focus: (
+        color: var(--button-color-secondary-500-text-focus-color),
+        background-color: var(--button-color-secondary-500-text-focus-background-color),
+        border-color: var(--button-color-secondary-500-text-focus-border-color),
+        box-shadow: var(--elevation-3)
+      ),
+      disabled: (
+        color: var(--button-color-secondary-500-text-disabled-color),
+        background-color: var(--button-color-secondary-500-text-disabled-background-color),
+        border-color: var(--button-color-secondary-500-text-disabled-border-color),
+        box-shadow: var(--elevation-0)
+      ),
+    )
+  )
+);
+
+$button-sizes: (
+  default: (
+    padding-top: var(--button-size-default-spacing-padding-top),
+    padding-bottom: var(--button-size-default-spacing-padding-bottom),
+    padding-left: var(--button-size-default-spacing-padding-left),
+    padding-right: var(--button-size-default-spacing-padding-right),
+    gap: var(--button-size-default-spacing-gap),
+    font-size: var(--button-size-default-font-size),
+    border-radius: var(--button-size-default-border-radius),
+    border-width: var(--button-size-default-border-width),
+    line-height: var(--button-size-default-line-height),
+    height: var(--button-size-default-size-height),
+    with-icon-left: (
+      padding-left: var(--button-size-default-spacing-with-icon-left-padding-left),
+      padding-right: var(--button-size-default-spacing-with-icon-left-padding-right),
+    ),
+    with-icon-right: (
+      padding-left: var(--button-size-default-spacing-with-icon-right-padding-left),
+      padding-right: var(--button-size-default-spacing-with-icon-right-padding-right),
+    )
+  ),
+  sm: (
+    padding-top: var(--button-size-sm-spacing-padding-top),
+    padding-bottom: var(--button-size-sm-spacing-padding-bottom),
+    padding-left: var(--button-size-sm-spacing-padding-left),
+    padding-right: var(--button-size-sm-spacing-padding-right),
+    gap: var(--button-size-sm-spacing-gap),
+    font-size: var(--button-size-sm-font-size),
+    border-radius: var(--button-size-sm-border-radius),
+    border-width: var(--button-size-sm-border-width),
+    line-height: var(--button-size-sm-line-height),
+    height: var(--button-size-sm-size-height),
+    with-icon-left: (
+      padding-left: var(--button-size-sm-spacing-with-icon-left-padding-left),
+      padding-right: var(--button-size-sm-spacing-with-icon-left-padding-right),
+    ),
+    with-icon-right: (
+      padding-left: var(--button-size-sm-spacing-with-icon-right-padding-left),
+      padding-right: var(--button-size-sm-spacing-with-icon-right-padding-right),
+    )
+  ),
+  lg: (
+    padding-top: var(--button-size-lg-spacing-padding-top),
+    padding-bottom: var(--button-size-lg-spacing-padding-bottom),
+    padding-left: var(--button-size-lg-spacing-padding-left),
+    padding-right: var(--button-size-lg-spacing-padding-right),
+    gap: var(--button-size-lg-spacing-gap),
+    font-size: var(--button-size-lg-font-size),
+    border-radius: var(--button-size-lg-border-radius),
+    border-width: var(--button-size-lg-border-width),
+    line-height: var(--button-size-lg-line-height),
+    height: var(--button-size-lg-size-height),
+    with-icon-left: (
+      padding-left: var(--button-size-lg-spacing-with-icon-left-padding-left),
+      padding-right: var(--button-size-lg-spacing-with-icon-left-padding-right),
+    ),
+    with-icon-right: (
+      padding-left: var(--button-size-lg-spacing-with-icon-right-padding-left),
+      padding-right: var(--button-size-lg-spacing-with-icon-right-padding-right),
+    )
+  )
+)

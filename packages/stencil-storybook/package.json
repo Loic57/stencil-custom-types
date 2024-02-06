@@ -1,0 +1,63 @@
+{
+  "name": "ap-web-components",
+  "version": "0.0.6",
+  "description": "Agile Partner Vanilla Web Components",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/ap-web-components/ap-web-components.esm.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "stencil:build": "stencil build",
+    "stencil:start": "stencil build --watch",
+    "storybook:start": "storybook dev -p 6006",
+    "storybook:build": "storybook build",
+    "tokens": "style-dictionary build --config ./design-tokens/config.json",
+    "chromatic": "npx chromatic --project-token=chpt_d69355f59e126fe -b storybook:build"
+  },
+  "dependencies": {
+    "@stencil/core": "4.11.0",
+    "rimraf": "^5.0.5"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@floating-ui/dom": "^1.5.3",
+    "@stencil/angular-output-target": "^0.8.2",
+    "@stencil/react-output-target": "^0.5.3",
+    "@stencil/sass": "^3.0.5",
+    "@storybook/addon-a11y": "^7.6.11",
+    "@storybook/addon-designs": "^7.0.9",
+    "@storybook/addon-essentials": "^7.6.11",
+    "@storybook/addon-interactions": "^7.6.11",
+    "@storybook/addon-links": "^7.6.11",
+    "@storybook/addon-mdx-gfm": "^7.6.11",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.11",
+    "@storybook/react": "^7.6.11",
+    "@storybook/react-vite": "^7.6.11",
+    "@storybook/react-webpack5": "^7.6.11",
+    "@storybook/testing-library": "^0.2.2",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.11",
+    "chromatic": "^10.1.0",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "prop-types": "^15.8.1",
+    "puppeteer": "^21.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.11",
+    "style-dictionary": "^3.8.0"
+  },
+  "license": "MIT",
+  "gitHead": "cefa0d3f3197fd75e5a8e81205bdacc0053bf8ca"
+}
